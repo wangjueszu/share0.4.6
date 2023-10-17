@@ -7,8 +7,10 @@
             <a href="/" style="text-decoration: none; color: inherit">{{ $t('commons.siteTitle') }}</a>
           </div>
           <div class="hidden sm:block">
-            <a class="h-full inline-block flex" href="https://github.com/moeakwak/chatgpt-web-share" target="_blank">
-              <n-icon :color="appStore.theme == 'dark' ? 'white' : 'black'" :component="LogoGithub" />
+            <a class="h-full inline-block flex" href="https://b1n.net/6HmF0" target="_blank">
+              <n-avatar>
+              <img src="/sydney-logo.png" alt="Sydney Logo" />
+              </n-avatar>
             </a>
           </div>
           <n-tag :bordered="false" type="success" size="small" class="hidden sm:inline-flex">
